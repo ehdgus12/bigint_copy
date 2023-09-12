@@ -1046,6 +1046,8 @@ int main(){
     bi_Exp_LR_zx(&r7, &b8, n);
     bi_print_bigint(&r7);
     printf("빅인티저 길이 = %d\n", bi_get_length(&r7));
+
+    
     printf("=============  빅인티저 지수승 연산 검증 종료 ============== \n\n");
     
     return 0;
